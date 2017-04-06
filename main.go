@@ -17,7 +17,7 @@ type Say struct{}
 func (s *Say) Anything(req *restful.Request, rsp *restful.Response) {
 	log.Print("Received Say.Anything API request")
 	rsp.WriteEntity(map[string]string{
-		"message": "Hi, this is the Greeter API",
+		"message": "Hi, this is the Service API",
 	})
 }
 
