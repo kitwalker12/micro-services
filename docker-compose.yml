@@ -2,7 +2,7 @@ version: "3"
 services:
   services:
     build: .
-    image: violetgreycom/services
+    image: services
     container_name: services
     command: [go, run, main.go]
     ports:
