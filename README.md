@@ -1,5 +1,5 @@
 # micro-services
-Simple Micro Service skeleton
+Simple Micro Service skeleton with an API endpoint using [go-restful](https://github.com/emicklei/go-restful) and Pub/Sub capabilities using [Go Micro](https://github.com/micro/go-micro) & [RabbitMQ Go Plugins](https://github.com/micro/go-plugins)
 
 ## Setup
 
